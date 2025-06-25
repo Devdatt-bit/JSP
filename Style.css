@@ -36,8 +36,8 @@ nav {
 .nav-links {
   list-style: none;
   display: flex;
-   margin-left: 20%;
-  gap: 7px;
+   margin-left: 30%;
+  gap: 10px;
   position: fixed;
 }
 
