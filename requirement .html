@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+
+    </head>
+    <body>
+
+
+
+        <div class="ticker-wrap">
+    <div class="ticker">
+        <span>🔴 Breaking: We are try to make intractive this platform please wait for it </span>
+      <span>🔴 Breaking: Slowly slowly we updated the site for easy to use </span>
+      <span>⏳ Estimated response time: within 2-4 hours.</span>
+      <span>🔴 Breaking: JSP is a platform for those who want to complete their tasks with the help of others.</span>
+      <span>📌 Our team section are shown in below which updated soon.</span>
+            <span>📌 Please fill all required fields to proceed.</span>
+  
+    </div>
+  </div>
+
+
+        <diV class="form-section" >
+
+
+   <form class="form-container" action="/submit" method="POST"style="margin-left: 33%;">
+    <h2>POST Requirement/Task</h2>
+    <div class="form-group">
+      <label for="name">Full Name *</label>
+      <input type="text" id="name" name="name" required />
+    </div>
+    <div class="form-group">
+      <label for="email">Email Address *</label>
+      <input type="email" id="email" name="email" required />
+    </div>
+    <div class="form-group">
+      <label for="phone">Contact Number</label>
+      <input type="text" id="phone" name="phone"/>
+    </div>
+    <div class="form-group">
+      <label for="need">Service Required *</label>
+      <select id="need" name="need" required>
+        <option value="">-- Select --</option>
+        <option value="consultation">Complete My Task</option>
+        <option value="support">Requirement Service</option>
+        <option value="custom_work">Other Help</option>
+      </select>
+      <label for="need">Service Person *</label>
+            <select id="need" name="need" required>
+        <option value="">-- Select --</option>
+        <option value="consultation">Boys</option>
+        <option value="support">Girls</option>
+        <option value="custom_work">Anyone</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="tasks">Describe Tasks / Needs</label>
+      <textarea id="tasks" name="tasks" placeholder="Tell us more about what you'd like"></textarea>
+    </div>
+    <div class="form-group">
+      <input type="submit" value="Submit Request" />
+      
+     </form>
+  
+    </diV>
+
+    </body>
+</html>
+
+
+
