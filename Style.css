@@ -191,6 +191,7 @@ footer {
       overflow: hidden;
       position: relative;
       margin-bottom: 10px;
+   margin-top: 70px;
     }
     .ticker {
       display: inline-block;
