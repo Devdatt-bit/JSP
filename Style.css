@@ -116,7 +116,7 @@ footer {
       border: 1px solid #ddd;
       border-radius: 8px;
       padding: 1.5rem;
-      background: #fafafa;
+      background: gray;
     }
     .step-card h3{ margin-bottom: 1rem; }
     .step-card p{ font-size: 0.95rem; }
@@ -127,12 +127,12 @@ footer {
     .form-section {
       align-items: center;
       padding: 50px 20px;
-      background-color: #f4f4f4;
+      background-color: gray;
       border-radius: 8px;
       margin: 20px auto;
     }
     .form-container { background: #fff; padding: 20px; border-radius: 8px; max-width: 500px; width: 100%; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-   margin-left: 500px; }
+    }
     .form-container h2 { margin-bottom: 15px; text-align: center; }
     .form-group { margin-bottom: 15px; }
     .form-group label { display: block; margin-bottom: 5px; }
