@@ -14,7 +14,7 @@ body {
 /* Navigation */
 header {
   background-color: #202123;
-  padding: 20px 1px;
+  padding: 20px 10px;
   text-align: center;
   position: fixed;
   width: 100%;
@@ -59,7 +59,8 @@ nav {
   justify-content: center;
   height: 80vh;
   text-align: center;
-  padding: 0 20px;
+  padding: 0 40px;
+  
 }
 
 .hero-content h1 {
